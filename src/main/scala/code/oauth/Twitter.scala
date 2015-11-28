@@ -1,8 +1,8 @@
 package code.oauth
 
-import dispatch._
-import dispatch.oauth._
-import dispatch.oauth.OAuth._
+import dispatch.classic._
+import oauth._
+import OAuth._
 import java.net.URI
 
 object TwitterOAuthProvider extends OAuthProvider {

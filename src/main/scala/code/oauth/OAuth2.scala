@@ -1,9 +1,9 @@
 package code.oauth
 
-import dispatch._
-import dispatch.oauth._
-import dispatch.oauth.OAuth._
-import dispatch.json.JsHttp._
+import dispatch.classic._
+import oauth._
+import OAuth._
+import json.JsHttp._
 import Request.{encode_%, decode_%}
 import java.net.URI
 import collection.Map

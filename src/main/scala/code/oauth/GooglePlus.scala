@@ -1,16 +1,15 @@
 package code.oauth
 
-
-import dispatch._
-import dispatch.oauth._
-import dispatch.oauth.OAuth._
-import dispatch.json._
-import dispatch.json.JsHttp._
+import dispatch.classic._
+import oauth._
+import oauth.OAuth._
+import json._
+import json.JsHttp._
 import Request.{encode_%, decode_%}
 import java.net.URI
 import collection.Map
 import collection.immutable.{TreeMap, Map=>IMap}
-
+import dispatch.liftjson.Js._
 
 object GooglePlusOAuthProvider extends OAuth2Provider {
 

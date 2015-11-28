@@ -10,8 +10,9 @@ import net.liftweb.http.S._
 import net.liftweb.http.SHtml._
 import net.liftweb.util.Props
 import net.liftweb.util.Helpers._
-import dispatch.oauth._
-import dispatch.oauth.OAuth._
+import dispatch.classic._
+import oauth._
+import OAuth._
 
 
 

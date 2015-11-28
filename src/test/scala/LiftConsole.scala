@@ -1,7 +1,8 @@
 import bootstrap.liftweb.Boot
 import scala.tools.nsc.MainGenericRunner
 
-object LiftConsole {
+object LiftConsole{
+  
   def main(args : Array[String]) {
     // Instantiate your project's Boot file
     val b = new Boot()
@@ -10,6 +11,6 @@ object LiftConsole {
     // Now run the MainGenericRunner to get your repl
     MainGenericRunner.main(args)
     // After the repl exits, then exit the scala script
-    exit(0)
+    System.exit(0)
   }
 }
